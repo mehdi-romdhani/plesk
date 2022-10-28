@@ -1,0 +1,72 @@
+.somme-container{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+
+.somme-title{
+    border: 1px solid green;
+    margin-top: 3%;
+    
+
+}
+
+.somme-title h1{
+
+    border: 1px solid red;
+    padding-left: 19%;
+    font-family: 'Roboto Slab',Georgia,"Times New Roman",serif!important;
+    font-size: 40px;
+    line-height: 1em;
+    
+
+}
+
+.somme-txt{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid salmon;
+    margin-top: 2%;
+    width: 50%;
+    padding-left: 18%;
+    /* height: 50%; */
+
+}
+
+.somme-txt-left p{
+
+    color: #666;
+    font-size: 16px;
+    /* font-weight: 600; */
+    font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
+
+}
+
+.somme-txt-left{
+    
+    border: 1px solid maroon;
+    
+}
+
+.somme-txt-right{
+    
+    border: 1px solid magenta;
+    
+}
+
+.somme-txt-right p{
+
+    color: #666;
+    font-size: 1em;
+    /* font-weight: 600; */
+    font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
+
+}
+

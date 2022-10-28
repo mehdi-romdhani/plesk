@@ -1,0 +1,493 @@
+.aws-container {
+  display: flex;
+
+  /* height: 50vh; */
+  width: 100%;
+  margin: 5% 0 0 0;
+  border: 1px solid black;
+}
+
+.aws-bandeau {
+  background-image: url("img/amazon.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.aws-bandeau img {
+  width: 250px;
+  height: 63px;
+  /* border: 1px solid red; */
+  margin-top: 1%;
+}
+
+.aws-text {
+  /* border: 1px solid green; */
+  margin: 1% 0 0 27%;
+  padding-top: 2%;
+}
+
+.aws-text h1 {
+  color: white;
+  font: 30px "Roboto Slab";
+  color: #e17b32;
+}
+
+.aws-text p {
+  color: white;
+  font: 20px "Roboto Slab";
+}
+
+/* //////////////////////aws job//////////////////// */
+
+.aws-job-container{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* background-color: #e17b32; */
+    /* height: 100vh; */
+    
+    /* justify-content: center; */
+    padding-bottom: 5%;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.aws-titre h2{
+    
+    font: 40px "Roboto Slab";
+    font-weight: 700;
+    /* border: 1px solid green; */
+    line-height: 1em;
+
+}
+
+
+.aws-containe{
+
+    width: 55%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+
+}
+
+.aws-containe-txt{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    
+}
+.aws-containe-txt p{
+
+    color: #666;
+    font-size: 1em;
+    font-weight: 600;
+
+}
+
+.aws-containe-txt p a{
+    text-decoration: none;
+    color: #e17b32;
+}
+
+.aws-containe-txte{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 5%;
+}
+
+.aws-containe-txte p{
+
+    color: #666;
+    font-size: 1em;
+    font-weight: 600;
+
+}
+
+.aws-containe-txte p a{
+    text-decoration: none;
+    color: #e17b32;
+}
+
+.aws-containe-txte ul li{
+
+    color: #666;
+    font-size: 1em;
+    font-weight: 600;
+
+}
+
+.aws-containe-txte ul li a{
+    text-decoration: none;
+    color: #e17b32;
+}
+
+/* ////endawscontaine////// */
+
+.aws-log{
+
+    /* border: 1px solid black; */
+    margin-top: 2%;
+    /* align-items: center; */
+
+}
+
+.aws-log p{
+
+    font: 20px "Roboto Slab";
+    font-weight: 700;
+    /* border: 1px solid green; */
+    line-height: 1em;
+
+
+}
+
+.aws-log button{
+
+    margin-left: 25%;
+    margin-top: 5%;
+    height:50%;
+    width: 50%;
+    color: #ffffff!important;
+    border-width: 0px!important;
+    border-radius: 1px;
+    font-size: 25px;
+    background-color: #e17b32
+
+}
+
+
+/* /////////////////certif///////////////////// */
+
+.certif{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    background-color: #f2f2f2!important;
+   
+    
+    
+}
+
+.certi-cont{
+
+    display:flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5%;
+    /* padding-left: 55%; */
+    margin-bottom: 5%;
+}
+
+.cert-container{
+/* 
+    border: 1px solid green; */
+    width:10%;
+}
+
+.cert-container img{
+
+    width: 120px;
+    height: 120px;
+    padding-left: 15%;
+
+}
+
+.cert-container :nth-child(2){
+
+    font: 22.5px "Roboto Slab";
+    font-weight: 800;
+    /* border: 1px solid green; */
+    line-height: 1em;
+    
+}
+
+.cert-container :nth-child(3){
+
+    font: 22.5px "Roboto Slab";
+    line-height: 1em;
+    font-weight: 300;
+}
+
+/* //////////////////////section--programme////////////////// */
+
+.pro-container{
+
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #e17b32;
+    align-items: center;
+    padding-bottom: 10%;
+    
+
+}
+
+.pro-title{
+
+    /* border: 1px solid black; */
+    margin-top: 3%;
+}
+
+.pro-title h2{
+    font: 35px "Roboto Slab";
+    font-weight: 700;
+    /* border: 1px solid green; */
+    line-height: 1em;
+}
+
+.p-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+    width: 55%;
+    
+    
+    margin-top: 3%;
+    
+    
+}
+
+
+
+.pr-container{
+
+    /* border: 1px solid black; */
+    /* width: 50%; */
+    background-color: #f2f2f2;
+    height: 50%;
+    
+    
+    
+
+}
+
+.pr-container img{
+    width: 450px;
+    height: 225px;
+}
+
+.pr-container ul{
+/* 
+        border: 1px solid black; */
+        margin: 10% 0 45% 0;
+        
+       
+}
+
+.pr-container li{
+    /* border: 1px solid black; */
+    margin-top: 1%;
+    /* padding-top: 10%; */
+    list-style-type: none;
+    padding-left: 5%;
+    font: "Roboto Slab";
+
+}
+
+.pr-container ul li::before {
+    content: "•";
+    color: #e17b32; 
+    /* display: inline-block; */
+    /* width: 1em; */
+    margin-right: 16px; 
+   
+
+}
+
+
+
+
+
+
+
+.pg-container{
+
+    /* border: 1px solid black; */
+    /* width: 50%; */
+    background-color: #f2f2f2;
+}
+
+.pg-container img{
+
+    width: 450px;
+    height: 225px;
+
+
+    
+}
+
+.pg-container ul{
+    
+            /* border: 1px solid black; */
+            margin: 8% 0 20% 0;
+            
+           
+    }
+    
+.pg-container li{
+
+        /* border: 1px solid black; */
+        margin-top: 1%;
+        /* padding-top: 10%; */
+        list-style-type: none;
+        padding-left: 5%;
+    }
+    
+.pg-container ul li::before {
+        content: "•";
+        color: #e17b32; 
+        /* display: inline-block; */
+        /* width: 1em; */
+        /* margin-left: 2%;   */
+        margin-right: 16px; 
+    
+    }
+    
+    /* /////programme-aws////////////: */
+
+    .form-container{
+
+        display: flex;
+        flex-direction: column;
+        /* height: 100vh; */
+        width: 100vw;
+        background-color: #f2f2f2!important;
+        align-items: center;
+        padding-bottom: 10%;
+        
+    
+    }
+    
+    .for-title{
+    
+        /* border: 1px solid black; */
+        margin-top: 1%;
+    }
+    
+    .for-title h2{
+        /* font-family: 'Roboto Slab',Georgia,"Times New Roman",serif!important;
+        font-weight: 500; */
+        font: 35px "Roboto Slab";
+        font-weight: 700;
+        /* border: 1px solid green; */
+        line-height: 1em;
+    }
+    
+    .f-container{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+        width: 55%;
+        
+        
+        margin-top: 3%;
+        
+        
+    }
+    
+    
+    
+    .fr-container{
+    
+        /* border: 1px solid black; */
+        /* width: 50%; */
+        background-color:white;
+        height: 50%;
+        
+        
+        
+    
+    }
+    
+    .fr-container img{
+        width: 450px;
+        height: 225px;
+    }
+    
+    .fr-container ul{
+    /* 
+            border: 1px solid black; */
+            margin: 15% 0 45% 0;
+            
+           
+    }
+    
+    .fr-container li{
+        /* border: 1px solid black; */
+        margin-top: 1%;
+        /* padding-top: 10%; */
+        list-style-type: none;
+        padding-left: 2%;
+    }
+    
+    .fr-container ul li::before {
+        content: "•";
+        color: #e17b32; 
+        /* display: inline-block; */
+        /* width: 1em; */
+        margin-right: 16px;  
+    
+    }
+    
+    
+    
+    
+    
+    .fg-container{
+    
+        /* border: 1px solid black; */
+        /* width: 50%; */
+        background-color: white;
+    }
+    
+    .fg-container img{
+    
+        width: 450px;
+        height: 225px;
+    
+    
+        
+    }
+    
+    .fg-container ul{
+        
+                /* border: 1px solid black; */
+                margin: 15% 0 20% 0;
+                
+               
+        }
+        
+    .fg-container li{
+    
+            /* border: 1px solid black; */
+            margin-top: 1%;
+            /* padding-top: 10%; */
+            list-style-type: none;
+            padding-left: 2%;
+        }
+        
+    .fg-container ul li::before {
+            content: "•";
+            color: #e17b32; 
+            /* display: inline-block; */
+            /* width: 1em; */
+            /* margin-left: 2%;   */
+            margin-right: 16px;  
+        
+        }
