@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgoldenrodyellow;
+
+  /* height: 100%; */
+  display: flex;
+  flex-direction: row;
+}
+
+/* --------------------------------------------------------------- */
+
+.menu-containe {
+  
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: #d6cdae;
+  transition-property: background-color;
+  transition-duration: 5s;
+  height: 100vh;
+  /* width: 100vw; */
+
+}
+
+
+.menu-containe:hover {
+
+  background-color: orange;
+
+}
+
+/* Ma photo */
+
+#pic {
+
+  border-radius: 50%;
+  margin: 20% 10% 20% 10%;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+
+}
+
+
+
+/* navbar */
+
+.navbar{
+
+  border: 1px solid black;
+  /* padding-left: 1%; */
+  /* margin: 10% 0 0 0; */
+
+
+}
+
+.navbar ul{
+
+  /* border: 1px solid black; */
+  list-style-type: none;
+
+}
+
+.navbar ul li{
+
+  /* border: 1px solid black; */
+  padding: 0 0 10% 0;
+
+}
+
+.navbar ul li a{
+
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 20px; */
+
+}
+
+
+/* /////////////////cv-container//////////// */
+
+.cv-container{
+
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  border:1px solid black;
+
+}
+
+
+
+
+
+
+
+
